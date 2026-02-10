@@ -1,0 +1,82 @@
+{
+  "suppliers": [
+    {
+      "supplier_id": "SUPPLIER_001",
+      "name": "EcoLogistics",
+      "vehicles": [
+        {
+          "vehicle_id": "EL_HDT_01",
+          "type": "Heavy-Duty Truck",
+          "trips": [
+            {
+              "trip_id": "TRIP_A1",
+              "date": "2024-07-28",
+              "gps_pings": [
+                {
+                  "timestamp": "2024-07-28T08:00:00Z",
+                  "latitude": 12.9716,
+                  "longitude": 77.5946
+                },
+                {
+                  "timestamp": "2024-07-28T12:00:00Z",
+                  "latitude": 16.8343,
+                  "longitude": 77.5946
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "vehicle_id": "EL_MDT_05",
+          "type": "Medium-Duty Truck",
+          "trips": [
+            {
+              "trip_id": "TRIP_A2",
+              "date": "2024-07-29",
+              "gps_pings": [
+                {
+                  "timestamp": "2024-07-29T10:00:00Z",
+                  "latitude": 13.0000,
+                  "longitude": 77.6000
+                },
+                {
+                  "timestamp": "2024-07-29T11:00:00Z",
+                  "latitude": 13.4500,
+                  "longitude": 77.6000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "supplier_id": "SUPPLIER_002",
+      "name": "RapidMovers",
+      "vehicles": [
+        {
+          "vehicle_id": "RM_RT_01",
+          "type": "Refrigerated Truck",
+          "trips": [
+            {
+              "trip_id": "TRIP_B1",
+              "date": "2024-07-28",
+              "gps_pings": [
+                {
+                  "timestamp": "2024-07-28T09:00:00Z",
+                  "latitude": 12.9141,
+                  "longitude": 77.6369
+                },
+                {
+                  "timestamp": "2024-07-28T13:00:00Z",
+                  "latitude": 15.7078,
+                  "longitude": 77.6369
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
